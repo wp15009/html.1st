@@ -10,10 +10,10 @@
     h2{
     	//color:#000000;
     	font-size: 185%;
-    	border-left:15px solid #668800;
+    	border-left:15px solid #7fff00;
     	padding-left:10px;
-
-    	}
+        clear:left;
+    }
     h3{
         padding :5px ;
         border:1px solid #668800;
@@ -56,6 +56,7 @@
         margin-right:20px;
         margin-bottom:50px;
     }
+    /*
     ul{
         background-color:#88aa00;
         padding:10px 20px;
@@ -74,4 +75,36 @@
     li a:hover{
         color:#000000;
         text-decoration:none;
+    }
+    */
+    ul{
+        list-style-type: none;
+        margin: 5px 0;
+        padding: 0;
+        font-size: 12px;
+        overflow: hidden;
+        background-color:#7fff00;
+        border-radius: 15px;
+    }
+    li{
+        float: left;
+        margin-right: 0px;
+        width: 100px;
+        text-align: center;
+        border-right: solid 1px #ffffff;
+    }
+    li a{
+        display:  block;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        border-bottom:  solid 5px transparent
+    }
+    li a:link{
+        color:#eeee00;
+        text-decoration: none;
+    }
+    li a:hover{
+        color:#000000;
+        border-bottom: solid 5px #00ccff;
+        text-decoration: none;
     }
