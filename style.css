@@ -4,7 +4,7 @@
     	font-size: 13px;
     	line-height:1.5;
     	//font-family: Impact;
-    	//background-color:gold;
+    	background-color:gold;
         text-align: center;
     }
     h2{
@@ -97,7 +97,7 @@
         display:  block;
         padding-top: 15px;
         padding-bottom: 10px;
-        border-bottom:  solid 5px transparent
+        border-bottom:  solid 5px transparent;
     }
     li a:link{
         color:#eeee00;
